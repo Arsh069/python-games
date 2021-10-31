@@ -18,6 +18,7 @@ question = [
 ]
 
 answer = prompt(question).get("game")
+# check for answer
 if answer == "Dragon Realm":
     from src.dragon_realm import main
     main()
