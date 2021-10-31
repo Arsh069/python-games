@@ -13,4 +13,5 @@ if __name__ == "__main__":
         if val.lower() == "q":
             break
         print(colored(f"You have got {roll()}", "blue"))
+        
     print("Thank You for playing")
